@@ -102,14 +102,46 @@ div.social a{
     display: inline;
 }
 a img{
+    margin: 10px 15px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+} a img:hover{
+    margin: 10px 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid red;
+    box-shadow: 5px 5px 20px 10px rgba(255, 0, 0, 0.281);
+
+
 }
 
 div.containe{
-    background-color: rgba(0, 0, 0, 0.195);
-    width: 40% ;
+    
+
+    align-items: center;
+    height: 500px;
+
+    
+   
     padding: 20px;
     color: #fff;
+    position: relative;
+}
+div.tex{
+    font: bold;
+    font-style: oblique;
+    font-size: 1.2em;
+    text-shadow: none;
+    text-align: left;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(35%,-50%);
+    background-color: #ffffff28;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.281);
+    padding: 20px;
+    width: 30%;
+
 }
