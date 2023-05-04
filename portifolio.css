@@ -18,7 +18,7 @@ body,html{
     
     flex: 1;
     border-radius: 2rem;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
@@ -26,6 +26,6 @@ body,html{
 }
 
 .container >div:hover{
-    flex: 7;
+    flex: 10;
     box-shadow: inset 2px 2px 20px 10px rgba(0, 0, 0, 0.997);
 }
