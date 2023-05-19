@@ -2,7 +2,13 @@
 
 
 header{
+    padding: 2px 20px;
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
     background-color: lightgray;
     height: 20vh;
 
@@ -14,4 +20,13 @@ div#logo{
 
     background-color: gray;
 
+}
+
+div#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    background-color: rgba(0, 0, 0, 0.214);
+    width: 30%;
 }
