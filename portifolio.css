@@ -1,31 +1,17 @@
 @charset "UTF-8";
 
-body,html{
-    background-color: black;
-}
 
-.container{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin: auto;
-    max-width: 80vw;
+header{
     display: flex;
-    height: 95.5vh;
-    gap: 1rem;
-    border-radius: 50px;
-}
-.container >div{
-    
-    flex: 1;
-    border-radius: 2rem;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    background-color: lightgray;
+    height: 20vh;
 
 }
 
-.container >div:hover{
-    flex: 10;
-    box-shadow: inset 2px 2px 20px 10px rgba(0, 0, 0, 0.997);
+div#logo{
+    width: 40px;
+    height: 40px;
+
+    background-color: gray;
+
 }
