@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
 
+body{
+    background-image: url(imagens/imagem5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
 header{
     padding: 2px 20px;
 
@@ -10,7 +18,7 @@ header{
 
 
     background-color: lightgray;
-    height: 20vh;
+    height: 10vh;
 
 }
 
@@ -26,7 +34,16 @@ div#menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 
     background-color: rgba(0, 0, 0, 0.214);
-    width: 30%;
+    width: 50%;
+    max-width: 600px;
+    padding: auto 5px;
+
+   
+}
+
+div.itens{
+    padding: 2.5px;
 }
