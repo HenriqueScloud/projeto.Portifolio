@@ -2,10 +2,7 @@
 
 
 body{
-    background-image: url(imagens/imagem5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: #f2f2f2;
 }
 
 
@@ -23,9 +20,14 @@ header{
 }
 
 div#logo{
-    width: 40px;
-    height: 40px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+   
     background-color: gray;
 
 }
