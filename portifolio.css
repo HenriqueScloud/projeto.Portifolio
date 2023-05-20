@@ -3,14 +3,17 @@
 
 
 body{
-    background-image: linear-gradient(0deg,gray,black);
+    background-image: linear-gradient(180deg,gray,black);
     background-attachment: fixed;
 }
 
 
 header{
+    max-width:120%;
     border-radius: 5px;
     
+    
+    margin: auto;
     margin-bottom: 5px;
     padding: 2px 20px;
 
@@ -76,17 +79,21 @@ div.itens a:hover{
 
 
 main{
+    color: white;
    
-    border-radius: 2.5px;
+    border-radius: 5px;
+    overflow: hidden;
+    
     box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.304);
     
-    background-color: lightslategray;
+    background-image: url(imagens/imagem2.jpg);
+    background-position: left center;
 
-    max-width: 600px ;
+    max-width: 75% ;
     margin: auto;
 
-    padding: 10px;
-
+    
+    padding: 50px;
     height: 100vh;
 
 }
